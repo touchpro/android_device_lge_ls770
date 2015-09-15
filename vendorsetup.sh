@@ -1,0 +1,1 @@
+add_lunch_combo cm_ls770-userdebug
