@@ -22,8 +22,11 @@ TARGET_OTA_ASSERT_DEVICE := g4stylus,ls770
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/ls770/bluetooth
 
-# Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_ls770_defconfig
+# Custom path to kernel source for ls770
+TARGET_KERNEL_SOURCE := kernel/lge/ls770
+
+# Defconfig for sprint 
+TARGET_KERNEL_CONFIG := g4stylusc_spr_us_defconfig
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 25165824
